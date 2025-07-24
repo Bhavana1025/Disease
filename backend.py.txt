@@ -1,8 +1,7 @@
 import google.generativeai as genai
 
 # Configure Gemini AI
-GENAI_API_KEY = "AIzaSyAgLTzLRE9fRVH5aaLeaKCYDgcNVt-2UWw"
-genai.configure(api_key=GENAI_API_KEY)
+
 
 def calculate_bmi(weight, height_in_feet):
     """
