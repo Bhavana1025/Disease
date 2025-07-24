@@ -5,8 +5,7 @@ import os
 
 
 # Configure Google Gemini AI
-GENAI_API_KEY = "AIzaSyAgLTzLRE9fRVH5aaLeaKCYDgcNVt-2UWw"  # Replace with your actual API key
-genai.configure(api_key=GENAI_API_KEY)
+
 
 # Set Streamlit page configuration
 st.set_page_config(page_title="Health and Co", page_icon="🩺", layout="wide")
